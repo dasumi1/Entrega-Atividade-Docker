@@ -1,0 +1,11 @@
+Unicesumar@LAB8-PC16-ALN MINGW64 ~/Downloads/turma-a
+$ docker stop docker-a
+docker inspect --format '{{.State.Status}}' docker-a
+docker ps -a --filter name=docker-a
+
+docker-a
+exited
+CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS
+                             PORTS     NAMES
+8a1918005e80   nginx:alpine   "/docker-entrypoint.…"   3 minutes ago   Exited (1
+37) Less than a second ago             docker-a
